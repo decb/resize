@@ -2,6 +2,7 @@ name: resize
 
 dependencies:
   - base >= 4.7 && < 5
+  - hip
 
 ghc-options:
   - -O0
@@ -18,7 +19,7 @@ library:
   source-dirs: src
 
 executables:
-  resize:
+  resize-exec:
     main: Main.hs
     source-dirs: app
     ghc-options:
