@@ -2,6 +2,7 @@ name: resize
 
 dependencies:
   - base >= 4.7 && < 5
+  - containers
   - hip
 
 ghc-options:
@@ -14,6 +15,10 @@ ghc-options:
   - -Wno-unused-matches
   - -Wno-name-shadowing
   - -Wno-type-defaults
+
+default-extensions:
+  - FlexibleContexts
+  - StrictData
 
 library:
   source-dirs: src
