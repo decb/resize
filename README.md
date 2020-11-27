@@ -4,9 +4,9 @@ An implementation of content-aware image resizing in Haskell.
 
 ## Examples
 
-| Before | After |
-| :----: | :---: |
-|  todo  | todo  |
+|                                 Before                                 |                                       After                                       |
+| :--------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| ![Sphinx before](examples/sphinx.jpg) <br /> <sup>Original image</sup> | ![Sphinx after](examples/sphinx_after.jpg) <br /> <sup>Width reduced by 20%</sup> |
 
 ## Usage
 
